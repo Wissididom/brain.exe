@@ -1,0 +1,81 @@
+body {
+background-color: #FFFFFF;
+font-family: Georgia, Lucidia, Verdana, Arial, sans-serif;
+text-align:justify;
+}
+h2#brain {
+	position:relative;
+	top:0.1em;
+	left:0.1em;
+	font-size:4em;
+	color: #CCCCCC;
+	font-variant:small-caps;
+	z-index:0;
+}
+h2#brain2 {
+	position:absolute;
+	top:0.9em;
+	left:4em;
+	font-size:2.5em;
+	letter-spacing: 0.2em;
+	color: #4682B4;
+	z-index:1;
+}
+h3.header {
+	background: #4682B4;
+	border-right: 30px #B0C4DE solid;
+	color:#FFFFFF;
+	padding-right: 10px;
+	text-align:right;
+}
+h3.header:before {
+	clear:both;
+	}
+.short {
+	border: #000000 solid 1px;
+	float:right;
+	margin: 15px 0px 5px 5px;
+	padding:5px;
+	width:200px;
+	text-align:left;
+}
+strong {
+	font-weight:bold;
+	background-image: url('brain_strong.gif');
+}
+.footer {
+	font-size:9px;
+	text-align:center;
+}
+a:link {
+color : #000095;
+text-decoration : none;
+}
+a:visited {
+color : #000095;
+text-decoration : none;
+}
+a:hover {
+color : #000095;
+text-decoration : underline;
+}
+a:active {
+color : #000095;
+text-decoration : none;
+}
+p {
+	line-height:120%;
+}
+q {
+	quotes:"\00BB" "\00AB";
+}
+img.person_l {
+	border:1px solid #9A9A9A;
+	float:left;
+	margin:0px 5px 5px 0px;
+}
+img.person_r {
+	border:1px solid #9A9A9A;
+	float:right;
+	margin:0px 0px 5px 5px;
+}
